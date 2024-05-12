@@ -1,0 +1,46 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.loginform-container {
+    width: 300px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginform-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.loginform-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c7aaf;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.loginform-container button:hover {
+    background-color: #5193a0;
+}
+
+.loginerror-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+}

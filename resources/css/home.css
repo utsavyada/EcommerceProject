@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid white;
+    /* border-radius: 5px; */
+    margin: 10px;
+    position: relative;
+    /* background-color: #fff; */
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(226, 55, 55),rgb(68, 68, 252));
+    opacity: 0.1; 
+    pointer-events: none; 
+  }
+
+  .back{
+    opacity: 0.6; 
+    pointer-events: none; 
+  }
+  
+  .pics{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+     cursor: pointer;
+  }
+  .pics:hover{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .card p {
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .price-label {
+    color:rgb(32, 153, 32);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+    
+  
+  .add-to-cart {
+    background-color: rgb(253, 165, 42);
+    color: #fff;
+    padding: 8px 16px;
+    /* margin-top: 10px; */
+    /* border-radius: 20px; */
+    cursor: pointer;
+    font-size: 15px;
+    width: 250px;
+    border: 1px solid rgb(250, 184, 61);
+    font-weight: bold;
+  }
+  
+  .remove-from-cart {
+    background-color: rgba(227, 90, 59, 0.848);
+    color: #fff;
+    padding: 8px 16px;
+    /* margin-top: 10px; */
+    /* border-radius: 20px; */
+    cursor: pointer;
+    font-size: 15px;
+    width: 250px;
+    border: 1px solid rgb(239, 79, 65);
+    font-weight: bold;
+  }
+.iname{
+  font-weight: bold;
+  
+}
+.idesc{
+  font-weight: bold; 
+}
+
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.msg{
+  font-weight: bold;
+  font-size: 20px;
+}

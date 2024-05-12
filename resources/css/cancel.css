@@ -1,0 +1,29 @@
+.cancel-container {
+    text-align: center;
+    background-color: white;
+    margin-top: auto;
+  }
+  
+  .cancel-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-actions {
+    margin-top: 30px;
+  }
+  
+  .cancel-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #8248d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-link:hover {
+    background-color: #555;
+  }
